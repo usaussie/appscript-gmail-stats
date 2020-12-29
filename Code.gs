@@ -3,7 +3,6 @@ var SHEET_URL = "https://docs.google.com/spreadsheets/d/your-id-here/edit";
 var MAIN_SHEET_TAB_NAME = "Sheet1";
 var DIMENSION_SHEET_TAB_NAME = "Sheet2";
 
-
 /*
 *
 * ONLY RUN THIS ONCE TO SET THE HEADER ROWS FOR THE GOOGLE SHEETS
@@ -53,7 +52,6 @@ function getGmailStats() {
   ss.appendRow([audit_date,'last_hour_unsubscribe_count', last_hour_unsubscribe_count]);
   ss.appendRow([audit_date,'last_hour_from_my_domain', last_hour_from_my_domain]);
   ss.appendRow([audit_date,'last_hour_not_from_my_domain', last_hour_not_from_my_domain]);
-
 
 }
 
